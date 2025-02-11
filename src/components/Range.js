@@ -51,7 +51,7 @@ const Range = () => {
       if (right) carRef.current.rotation.y -= rotationSpeed;
     });
   
-    return <primitive ref={carRef} object={scene} scale={75} position={[0, 0, 0]} />;
+    return <primitive ref={carRef} object={scene} scale={250} position={[0, 0, 0]} />;
 };
 
 export default Range;
